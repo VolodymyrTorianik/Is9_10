@@ -1,0 +1,288 @@
+main {
+    margin-top: 150px;
+}
+
+#navig, h1 {
+    text-align: center;
+    margin-top: 20px;   
+}
+
+.navigation {
+    display: inline;
+    text-align: center;
+    font-size: 34px;
+   
+}
+
+.navigation a {
+
+    background-color: darkorange;
+    padding: 10px 20px; 
+    text-decoration: none;
+    color: aliceblue;   
+   
+}
+
+.navigation a:hover {
+
+    background-color: rgb(196, 151, 96);
+   
+}
+
+
+/* Перша таблиця початок */
+
+.table1 {
+
+    margin: 0 auto;  
+    padding: 0 150px;
+
+}
+
+
+.table1 th {
+
+    background-color: cadetblue;
+    font-size: 25px;
+}
+
+.table1 td, th {
+
+    padding: 10px;
+}
+
+.table1 tr th:first-child {
+	border-left: none;
+}
+
+.table1 tr td:first-child {
+	border-left: none;
+    background-color: rgb(99, 215, 219);
+}
+
+
+.table1 tr:nth-child(even){
+	background-color: #f3f3f3;
+}
+
+.center-row {
+
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.center-row > span {
+
+background-color: brown;   
+color:#f3f3f3;
+padding: 5px; 
+
+}
+
+/* Перша таблиця кінець */
+
+
+/* Друга таблиця початок */
+
+.table2 {
+
+    margin: 0 auto;  
+    padding: 0 150px;
+
+}
+
+.table2 td {
+    text-align: center;
+    border-left: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
+
+.table2 img {
+
+    width: 200px;
+    padding: 0 50px;
+
+}
+
+.row-style {
+
+    border: 1px solid aqua;
+}
+
+.last {
+
+    border-top: none;
+}
+
+
+.table2 th {
+
+    background-color:  aqua;
+    color: rgb(79, 80, 78);
+}
+
+
+.table2 tr:nth-child(4) {
+    background-color: rgb(226, 238, 172);
+    font-weight: 800;
+}
+
+a[target] {
+    text-decoration: none;
+}
+
+/* Друга таблиця кінець */
+
+/* Третя таблиця початок */
+
+.table3 {
+
+    margin: 0 auto;  
+    padding: 0 150px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    max-width: 800px;
+    text-align: center;
+    border: 1px solid rgb(62, 117, 117); 
+
+}
+
+
+.info {
+
+    text-align: justify;
+    border-bottom: 1px solid rgb(62, 117, 117);     
+
+}
+
+
+.info > span {
+
+    color: blueviolet;
+    font-size: 20px;
+    background-color: blanchedalmond;
+  
+
+}
+
+.table3 td, th {
+
+   padding: 10px;
+   background-color:azure;
+
+}
+
+
+.table3 img {
+
+    width: 250px;
+    border: 2px solid rgb(62, 117, 117);   
+    border-radius: 10px; 
+ }
+
+
+.td-fon {
+
+    background-color:rgb(43, 136, 136) !important;
+}
+
+
+.td-fon2 {
+
+    background-color:rgb(63, 179, 179) !important;
+}
+
+.td-fon3 {
+
+    border: 1px solid rgb(62, 117, 117);  
+}
+
+.td-fon4 {
+
+    border: 1px solid rgb(62, 117, 117);  
+}
+
+/* Третя таблиця кінець */
+
+/*Четверта сторінка старт*/
+
+
+.card {
+
+    position: relative;
+    border: 2px solid rgb(43, 136, 136);
+    margin: 40px 100px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    background-color: #f3f3f3;
+}
+
+.card img {
+    width: 200px;
+    border: 2px solid rgb(43, 136, 136);
+}
+
+.card .dit {
+
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    padding: 20px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+
+}
+
+
+.kubik {
+    margin: 40px 100px;
+    position: relative;
+    background-color: bisque;
+
+}
+
+.kubik h2 {
+
+    text-align: center;
+}
+
+.kub {
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.k1 {
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+
+.k2 {
+    background-color:aqua;
+    position: relative;
+    left: 60px;
+}
+
+
+.k3 {
+    background-color: black;
+    position: fixed;
+    top: 400px;
+    right: 0px;
+
+}
+
+
+.k4 {
+    background-color: greenyellow;
+    position: static;
+}
+
+/*Четверта сторінка кінець*/
